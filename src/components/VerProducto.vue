@@ -9,12 +9,12 @@
         <img :src='image' alt="Imagen">
       </div>
     </div>
-    <p>{{ form.nombre }}</p>
-    <p>{{ form.descripcion }}</p>
-    <p>{{ form.precio }}$</p>
-    <p>{{ form.cantidad }} unidades</p>
-    <p>{{ form.nombre_modelo }}</p>
-    <p>{{ form.descripcion_modelo }}</p>
+    <p>{{ this.producto[0].nombre }}</p>
+    <p>{{ this.producto[0].descripcion }}</p>
+    <p>{{ this.producto[0].precio }}$</p>
+    <p>{{ this.producto[0].cantidad }} unidades</p>
+    <p>{{ this.producto[1].nombre_modelo }}</p>
+    <p>{{ this.producto[1].descripcion_modelo }}</p>
   </div>
   <div v-if="editable">
     <!-- Formulario de edición usando la misma base que el formulario de creación -->
@@ -132,6 +132,7 @@ export default {
       const data = await res.json()
       // Enviamos al componente padre la información
       this.$emit('editar-producto', data)
+      this.editable = !this.editable;
       console.log(data)
     },
     toggle() {
