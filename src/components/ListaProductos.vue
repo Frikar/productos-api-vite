@@ -70,14 +70,14 @@ export default {
       this.productoSelect = await res.json();
       this.loaded = true;
       if (this.loaded) {
-        <!-- Aquí se realiza un slice para poder obtener la url de la img directamente del servidor -->
+        // Aquí se realiza un slice para poder obtener la url de la img directamente del servidor
         const url = this.productoSelect[0].path.slice(7);
         this.image = "http://127.0.0.1:8000/storage/" + url
         console.log(this.image)
       }
     },
     editandoProducto(data) {
-      <!-- Emitimos el evento para actualizar los datos en la vista de inicio -->
+     // Emitimos el evento para actualizar los datos en la vista de inicio
       this.$emit('editado-producto', data)
     }
   },

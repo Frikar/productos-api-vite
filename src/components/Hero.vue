@@ -3,7 +3,7 @@
     <div class="text-center hero-content p-32 pb-10">
       <div class="max-w-xl">
         <h1 class="text-6xl font-bold">Productos Demo</h1>
-        <p class="py-6">Este proyecto es una demo usando Laravel y Vue para crear un sistema de inventario para una tienda de laptops. Se usó para desarrollarlo Laravel 8, Vue 3, Vite y Tailwind + DaisyUI.</p>
+        <p class="py-6">Este proyecto es una demo usando Laravel y Vue para crear un sistema de inventario para una tienda de laptops. Para desarrollarlo se usó Laravel 8, Vue 3, Vite y Tailwind + DaisyUI.</p>
 <!--        El boton de añadir registros nos permite trabajar con un modal para añadir datos-->
         <label for="modal-add" class="btn btn-primary">Añadir registro</label>
       </div>

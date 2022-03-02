@@ -89,7 +89,7 @@ export default {
   data() {
     return {
       editable: false,
-      <!-- Creamos un modelo para añadir la información existente -->
+      // Creamos un modelo para añadir la información existente
       form: {
         nombre: this.producto[0].nombre,
         descripcion: this.producto[0].descripcion,
