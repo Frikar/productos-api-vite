@@ -1,7 +1,8 @@
-# Vue 3 + Vite
+# Productos API Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Demo de un sistema para una tienda de laptops. Para desarrollarlo se usó Laravel 8, Vue 3, Vite y Tailwind + DaisyUI.
 
-## Recommended IDE Setup
+## Backend
+Puedes ver el código del backend en Laravel visitando el siguiente enlace:
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+[API en Laravel](https://github.com/Frikar/api-products)
